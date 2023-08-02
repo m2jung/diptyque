@@ -15,7 +15,7 @@ header {
 }
 main {
     width: 100vw;
-    height: 2500px;
+    height: 3000px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,7 +112,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;   
-    margin-bottom: 140px
+    margin-bottom: 10px
 }
 
 .magazine-title {
@@ -129,6 +129,7 @@ li {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 180px;
 }
 
 .magazine-section__image{
@@ -153,7 +154,7 @@ li {
 /* product */
 .product-section {
     width: 100%;
-    height: 500px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,11 +174,10 @@ li {
 
 .item-section {
     width: 100%;
-    height: 500px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 80px;
 }
 
 .item-section__title {

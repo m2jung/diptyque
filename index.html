@@ -4,35 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
-    <title>My-web-DIPTYQUE</title>
+    <title>DIPTYQUE</title>
 </head>
 <body>
+    <!-- header -->
     <header>
         <div class="header-nav">
-            <div class="header-nav__title">DIPTYQUE</div>
+            <div class="header-nav__title"><a href="#">DIPTYQUE</a></div>
             <ul class="header-nav__menu">
-                <li>Brand</li>
-                <li>Body</li>
-                <li>Hair</li>
-                <li>LifeCare</li>
+                <li><a href="#">Brand</a></li>
+                <li><a href="#">Body</a></li>
+                <li><a href="#">Hair</a></li>
+                <li><a href="#">LifeCare</a></li>
             </ul>
         </div>
-        <div class="header__title">deptique<span>paris</span></div>
+        <div class="header-banner">
+            <div class="header-banner__title">deptyque<span>paris</span></div>    
+        </div>
     </header>
+    <!-- main -->
     <main>
-        <div>
-            <div class="magazine-title"> 2023 LookBook </div>
-            <div class="main-section__magazine">
-                <img src="./images/perfume01.jpg" class="magazine-column__image" />
-                <!-- <p class="magazine-column__p">
-                    Diptyque는 꿈과 현실 사이의 균형을 유지하며, 향기와 삽화, 그리고 그래픽의 조화를 통해, 좋아하는 장소 혹은 꿈에 그리던 장소, 행복했던 순간에 대한 기억, 함께 했던 여행 등의 오랜 추억으로 가득 찬 소우주로 우리를 초대합니다.
-                </p> -->
-                <h1 class="magazine-column__h">2023 Diptyque Signature Perfume</h1>
+        <!-- brand intro -->
+        <div class="brand-section__title">Diptyque History</div>
+        <div class="brand-section__subtitle">딥디크의 역사</div>
+        <div class="brand-section">
+            <div class="brand-section__article"></div>
+            <div class="brand-section__article"></div>
+            <div class="brand-section__article"></div>
+            <div class="brand-section__article"></div>
+        </div>
+        <!-- main magazine-->
+        <div class="magazine-title">2023 08 COSMETICS</div>
+        <div class="magazine-section">
+            <div class="magazine-section__image">
+                <img width="100%" height="100%" src="./images/perfume01.jpg">
+            </div>
+            <div class="magazine-section__content">
+                <div class="magazine-section__content__title">Premium Perfume</div> 
+                <p class="magazine-section__content__summary"> 가득 찬 향기의 삽화로 행복했던 순간의 기억들을 함께하다.</p>
+            </div>
+        </div>
+        <div class="item-section__title">Best Present</div>
+        <div class="item-section__subtitle">소중한 당신에게 향기를 선물합니다.</div>
+        <div class="item-section">
+            <div id="item-vet" class="item-section__article"></div>
+            <div id="item-tam" class="item-section__article"></div>
+            <div id="item-pal" class="item-section__article"></div>
+        </div>
+        <!-- main product-->
+        <div class="product-section">
+            <div class="product-section__video">
+                <video width="100%" height="100%" autoplay loop muted>
+                    <source src="./videos/banner.mp4">
+                </video>    
+            </div>
+            <div class="product-section__image">
+                <img width="100%" height="100%" src="./images/perfume02.jpg">
             </div>
         </div>
     </main>
+    <!-- footer -->
     <footer>
-
+        <div class="footer-copyright">
+            <p>주)딥디크 웹사이트 만들기 | 개발자등록번호: 010-0000-0000 | 대표자: 유미 | 경기도 고양시 777-777 | 대표번호: 1644-1246 | 이메일: 123@123.com <br>
+                개인정보 보호 책임자: 미정 | 호스팅 서비스 사업자: 미정 | 통신판매업신고: 경기도 고양시 (사업자정보확인) | 개인정보처리방침 | 이용약관 <br>
+                공식 딥디크 홈페이지가 절대 아닙니다.  <br>
+                © 미정미정 2023 Diptyque
+            </p>
+        </div>
     </footer>
 </body>
+<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+    // 윈도우가 렌더링될 때마다 실행되는 함수
+    $(window).on('load', function() {
+        $('div.header__title').fadeIn(2000);
+    });
+  </script>
 </html>

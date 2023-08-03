@@ -81,10 +81,9 @@ li {
 /* intro */
 .intro-section{
     width: 1300px;
-    height: 600px;
+    height: 550px;
     display: flex;
     justify-content: space-between;
-    
 }
 .intro-section__title {
     font-family: sans-serif;
@@ -111,19 +110,16 @@ li {
 }
 
 
-
-
-
-
-
 /* history */
 .history-section__title {
     width: 1300px;
-    height: 35px;
+    height: 60px;
     text-align: left;
     font-size: 23px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    letter-spacing: 7px
+    letter-spacing: 7px;
+    padding-top: 20px;
+    border-top: 2px solid rgba(0,0,0,0.9);
 }
 .history-section__subtitle {
     width: 1300px;
@@ -134,7 +130,7 @@ li {
 }
 .history-section {
     width: 1300px;
-    height: 380px;
+    height: 390px;
     display: flex;
     justify-content: space-between;   
     margin-bottom: 160px;
@@ -173,6 +169,7 @@ li {
 
 .magazine-title {
     width: 700px;
+    height: 100px;
     font-size: 28px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-bottom: 2px solid rgba(0,0,0,0.6);
@@ -180,20 +177,23 @@ li {
 }
 
 .magazine-section {
-    width: 700px;
-    height: 600px;
+    width: 500px;
+    height: 560px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 180px;
+
 }
 
 .magazine-section__image{
-    width: 500px;
-    height: 100%;
+    object-fit: cover;
 }
 
 .magazine-section__content{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
     writing-mode: vertical-rl;
 }
 
@@ -237,10 +237,12 @@ li {
 }
 
 .item-section__title {
+    height: 50px;
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
 }
 .item-section__subtitle {
+    height: 20px;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }

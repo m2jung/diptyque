@@ -253,18 +253,18 @@ li {
 }
 
 .item-section__article:first-child {
-    background-image: url('/images/tempo.jpg');
+    background-image: url('images/tempo.jpg');
     background-size: cover;
     background-position: center;
 }
 .item-section__article:nth-child(2){
-    background-image: url('/images/tamdao.jpg');
+    background-image: url('images/tamdao.jpg');
     background-size: cover;
     background-position: center;
     
 }
 .item-section__article:last-child{
-    background-image: url('/images/vety.jpg');
+    background-image: url('images/vety.jpg');
     background-size: cover;
     background-position: center;
 }

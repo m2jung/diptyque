@@ -177,17 +177,16 @@ li {
 }
 
 .magazine-section {
-    width: 500px;
+    width: 650px;
     height: 560px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 180px;
-
 }
-
-.magazine-section__image{
-    object-fit: cover;
+.magazine-section__image {
+    width: 100%;
+    height: 100%;
 }
 
 .magazine-section__content{
